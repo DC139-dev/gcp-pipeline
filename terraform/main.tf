@@ -42,10 +42,10 @@ resource "google_bigquery_table" "bq_table" {
 #   value = google_storage_bucket.data_bucket.name
 # }
 
-# Output BigQuery Table ID
-output "bigquery_table" {
-  value = google_bigquery_table.bq_table.table_id
-}
+# # Output BigQuery Table ID
+# output "bigquery_table" {
+#   value = google_bigquery_table.bq_table.table_id
+# }
 
 
 # Create Dataproc Cluster
