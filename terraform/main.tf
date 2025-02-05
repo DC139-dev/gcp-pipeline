@@ -37,10 +37,10 @@ resource "google_bigquery_table" "bq_table" {
   }
 }
 
-# Output GCS Bucket Name
-output "gcs_bucket" {
-  value = google_storage_bucket.data_bucket.name
-}
+# # Output GCS Bucket Name
+# output "gcs_bucket" {
+#   value = google_storage_bucket.data_bucket.name
+# }
 
 # Output BigQuery Table ID
 output "bigquery_table" {
