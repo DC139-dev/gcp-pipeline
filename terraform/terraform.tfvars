@@ -1,0 +1,6 @@
+project_id       = "gcp-pipeline-project"
+region          = "us-central1"
+# gcs_bucket_name = "my-unique-gcs-bucket-123"
+# bigquery_dataset = "employee_dataset"
+# dataproc_cluster = "dc-cluster"
+# composer_env_name = "composer-data-pipeline"
